@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".djordje_veljkovic_rn4615.view.activity.KartonActivity">
+
+    <TextView
+        android:id="@+id/activityKartonNaslovTv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Karton pacijenta"
+        android:gravity="center"
+
+        />
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:src="@drawable/ic_photo_filter_black_24dp"
+        android:id="@+id/activityKartonLogoIv"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonNaslovTv"
+    />
+    <EditText
+        android:id="@+id/activityKartonImeEt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ime"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonLogoIv"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/activityKartonPrezimeEt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/prezime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonImeEt"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:id="@+id/activityKartonSppTv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonPrezimeEt"
+        android:text="Stanje pri prijemu"
+        />
+
+    <EditText
+        android:id="@+id/activityKartonSppEt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Stanje po prijemu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonSppTv"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:id="@+id/activityKartonTsTv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonSppEt"
+
+        android:text="Stanje pri prijemu"
+        />
+
+    <EditText
+        android:id="@+id/activityKartonTsEt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Stanje po prijemu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonTsTv"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:id="@+id/activityKartonDatumPTv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonTsEt"
+
+        android:text="Datum prijema"
+        />
+    <TextView
+        android:id="@+id/activityKartonDatumTv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonDatumPTv"
+        android:text="datum"
+        />
+    <Button
+        android:id="@+id/activityKartonOdustaniBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonDatumTv"
+        app:layout_constraintEnd_toEndOf="@id/activityKartonLogoIv"
+        android:text="Odustani"
+
+        android:textColor="@color/design_default_color_background"
+        android:background="@color/cardview_dark_background"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:textSize="10sp"
+        />
+
+    <Button
+        android:id="@+id/activityKartonIzmeniBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/activityKartonLogoIv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activityKartonDatumTv"
+        android:text="Izmeni"
+
+        android:textColor="@color/design_default_color_background"
+        android:background="@color/cardview_dark_background"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:textSize="10sp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

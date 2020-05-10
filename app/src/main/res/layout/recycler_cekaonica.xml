@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="25dp"
+    android:paddingBottom="15dp"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/recyclerCekaonicaIv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/face"
+            />
+        <TextView
+            android:id="@+id/recyclerCekaonicaImeTv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/recyclerCekaonicaIv"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="25dp"
+
+            />
+        <TextView
+            android:id="@+id/recyclerCekaonicaPrezimeTv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/recyclerCekaonicaIv"
+            app:layout_constraintTop_toBottomOf="@id/recyclerCekaonicaImeTv"
+            android:layout_marginLeft="25dp"
+
+            />
+        <TextView
+            android:id="@+id/recyclerCekaonicaSimpTv"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recyclerCekaonicaIv"
+            android:layout_marginLeft="25dp"
+
+            />
+        <Button
+            android:id="@+id/recyclerCekaonicaZdravBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recyclerCekaonicaSimpTv"
+            android:text="Zdrav"
+
+            android:textColor="@color/design_default_color_background"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="10sp"
+            />
+
+        <Button
+            android:id="@+id/recyclerCekaonicaHospBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recyclerCekaonicaSimpTv"
+            android:text="Hospitalizacija"
+
+            android:textColor="@color/design_default_color_background"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="10sp"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

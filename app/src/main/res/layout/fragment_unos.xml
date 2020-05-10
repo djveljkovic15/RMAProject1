@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/unos_novog_pacijenta"
+        android:gravity="center"
+        android:textSize="20sp"
+
+        />
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_unos_pacijenta"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:id="@+id/fragmentUnosImeET"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/unesite_ime"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/fragmentUnosPrezimeET"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/unesite_prezime"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/fragmentUnosSimpET"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/unesite_simptome_i_opste_stanje_pacijenta"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:layout_margin="45dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentUnosBtn"
+        android:text="@string/dodaj_u_cekaonicu"
+        android:layout_gravity="center"
+
+
+        />
+
+
+
+</LinearLayout>

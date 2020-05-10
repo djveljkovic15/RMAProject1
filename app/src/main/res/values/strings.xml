@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Domaci1</string>
+    <string name="fragmentProfilImeText" />
+    <string name="fragmentProfilPrezimeText" />
+    <string name="fragmentProfilBolnicaText" />
+    <string name="cekaonica">Cekaonica</string>
+    <string name="hospitalizovani">Hospitalizovani</string>
+    <string name="otpusteni">Otpusteni</string>
+    <string name="informacije_sistema_za_pracenje_stanja_pacijenata_obolelih_od_covid_19">Informacije sistema za pracenje stanja pacijenata obolelih od Covid-19</string>
+    <string name="unesite_ime">Unesite ime</string>
+    <string name="unesite_prezime">Unesite prezime</string>
+    <string name="unesite_ime_bolnice_u_kojoj_ste_zaposleni">Unesite ime bolnice u kojoj ste zaposleni</string>
+    <string name="unesite_pin">Unesite PIN</string>
+    <string name="login">Login</string>
+    <string name="unos_novog_pacijenta">Unos novog pacijenta</string>
+    <string name="unesite_simptome_i_opste_stanje_pacijenta">Unesite simptome i opste stanje pacijenta</string>
+    <string name="dodaj_u_cekaonicu">Dodaj u cekaonicu</string>
+    <string name="podaci_o_zdravstenom_radniku">Podaci o zdravstenom radniku</string>
+    <string name="ime">Ime:</string>
+    <string name="prezime">Prezime:</string>
+    <string name="bolnica">Bolnica:</string>
+    <string name="izmeni">Izmeni</string>
+    <string name="odjava">Odjava</string>
+</resources>
